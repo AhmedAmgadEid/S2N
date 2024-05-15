@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../../assets/destination/background-destination-desktop.jpg);
+    background-size: 100% 100vh;
+}
+
+.nav-bar{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 55px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+}
+
+.right-div{
+    display: flex;
+    width: 830px;
+    height: 96px;
+    padding-left: 200px;
+    align-items: center;
+    backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.pages{
+    display: flex;
+    width: 542px;
+    height: 96px;
+    align-items: center;    
+}
+
+.pages>div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.line{
+    border: solid rgba(56, 59, 75, 1) 0.5px;
+    width: 570px;
+    position: absolute;
+    left:112px;
+    z-index: 1;
+}
+
+.destination{
+    border-color: white;
+    border-bottom: solid white 3px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 136px);
+}
+
+.content .title{
+    display: flex;
+    padding-left: 166.5px;
+    align-items: center;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    font-family: "Barlow Condensed", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.content .title .number{
+    font-weight: 100;
+    margin-right: 30px;
+}
+
+.content .lowerdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content .lowerdiv .planet-info{
+    width: 445px;
+    height: 472px;
+}
+
+.content .lowerdiv .planet-info .planets-options{
+    display: flex;
+    width: 285.5px;
+    height: 34px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content .lowerdiv .planet-info .planets-options a{
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    color: rgba(208, 214, 249, 1);
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    margin-right: 20px;
+}
+
+.content .lowerdiv .planet-info .planets-options .titan{
+    color: rgba(255, 255, 255, 1);
+    border-bottom: solid rgba(255, 255, 255, 1) 3px;
+}
+
+.content .lowerdiv .planet-info .planet-name{
+    font-family: "Bellefair", serif;
+    font-size: 100px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.content .lowerdiv .planet-info .planet-description{
+    font-family: "Barlow", sans-serif;;
+    color: rgba(208, 214, 249, 1);
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.content .lowerdiv .planet-info hr{
+    border-color: rgba(56, 59, 75, 1);
+    margin-bottom: 10px;
+}
+
+.journey-details{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.journey-details-title{
+    font-size: 14px;
+    font-family: "Barlow Condensed", sans-serif;
+    color: rgba(208, 214, 249, 1);
+    letter-spacing: 2.36px;
+}
+
+.journey-details-value{
+    font-size: 28px;
+    font-family: "Bellefair", serif;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 5px;
+}
+
+.distance{
+    margin-right: 70px;
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../assets/home/background-home-desktop.jpg);
+    background-size: 100% 100vh;
+}
+
+.nav-bar{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 55px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+}
+
+.right-div{
+    display: flex;
+    width: 830px;
+    height: 96px;
+    padding-left: 200px;
+    align-items: center;
+    backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.pages{
+    display: flex;
+    width: 542px;
+    height: 96px;
+    align-items: center;    
+}
+
+.pages>div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.line{
+    border: solid rgba(56, 59, 75, 1) 0.5px;
+    width: 570px;
+    position: absolute;
+    left:112px;
+    z-index: 1;
+}
+
+.home{
+    border-color: white;
+    border-bottom: solid white 3px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 136px);
+}
+
+.detailes{
+    width: 450px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    color: rgba(208, 214, 249, 1);
+}
+
+.text2{
+    font-size: 150px;
+    font-family: "Bellefair", serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.text3{
+    color: rgba(208, 214, 249, 1);
+    line-height: 32px;
+}
+
+.explore{
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: "Bellefair", serif;
+    color: rgba(11, 13, 23, 1);
+    text-transform: uppercase;
+}
+
